@@ -1,0 +1,239 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+}
+
+/**Fonts **/
+@font-face {
+    font-family: 'Specify PERSONAL Expanded';
+    src: url('/fonts/specify-personal-expanded-bold-maisfontes.d310/specify-personal-expanded-bold.ttf') format('truetype'),
+    url('/fonts/specify-personal-expanded-bold-maisfontes.d310/specify-personal-expanded-bold.ttf') format('ttf');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+    }
+
+
+.cabecalho {
+    width: 100%;
+    height: 652px;
+}
+
+.imagem {
+    width: 100%;
+    height: 650px; /* Exemplo de altura fixa, ou pode ser outra */
+   
+}
+
+.imagem img {
+    width: 100%;
+    height: 650px;
+    object-fit: fill;
+}
+.group img{
+    width: 55px;
+    height: 55px;
+    position: absolute;
+    bottom: 145px;
+    left: 160px;
+}
+
+.rectangle{
+    border: 1px solid rgb(236, 236, 236);
+    width: 100%;
+    height: 50px;
+}
+.cabecalho2{
+    border: 1px solid rgb(219, 34, 34);
+    width: 100%;
+    height: 400px;
+}
+
+.categorias{
+    border: #FFF solid 1px;
+    width: 332px;
+    height: 0px;
+
+    top: 750px;
+    right: 100px;
+    position: absolute;
+}
+
+.conhecaNossosServicos{  
+    width: 433px;
+    height: 251px;
+    position: absolute;
+    top: 25px;
+    right: 450px;
+
+}
+.linha1{
+    width: 600px;
+    height: 1px;
+    bottom: 6px;
+    right: 60px;;
+    position: absolute;
+}
+.linha2{
+    width: 150px;
+    height: 20px;
+    bottom: -4px;
+    right: -15px;;
+    position: absolute;
+}
+
+.ensaios-fotograficos{
+    color: #FFF;
+    display: inline-block;
+    width: 329px;
+    padding: 30px 74px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    position: absolute;
+
+    border-radius: 9.018px;
+    border: 1.127px solid #39393E;
+    background: rgba(11, 11, 11, 0.30);
+    backdrop-filter: blur(2px);
+}
+
+.ensaios-fotograficos img{
+    width: 100px;
+    height: 100%;
+    bottom: 15px;
+    right: 210px;
+    position: absolute;
+}
+
+.ensaios-fotograficos img:last-of-type {
+    width: 100%; 
+    max-width: 280px; 
+    margin-top: 10px;
+    top: 5px; 
+    right: 30px;
+}
+
+.cobertura-de-eventos {
+    color: #FFF;
+    display: inline-block;
+    width: 329px;
+    height: 80px;
+    padding: 30px 74px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    top: 100px;
+    position: absolute;
+
+    border-radius: 9.018px;
+    border: 1.127px solid #39393E;
+    background: rgba(11, 11, 11, 0.30);
+    backdrop-filter: blur(2px);
+}
+.cobertura-de-eventos img{
+    width: 150px;
+    height: 100%;
+    bottom: 20px;
+    right: 160px;
+    position: absolute;
+}
+.cobertura-de-eventos img:last-of-type {
+    width: 100%; 
+    max-width: 280px; 
+    margin-top: 10px;
+    top: 1px; 
+    right: 30px;
+}
+.producao-de-reels{
+    color: #FFF;
+    display: flex;
+    width: 329px;
+    height: 80px;
+    padding: 30px 74px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    top: 200px;
+    position: absolute;
+
+    border-radius: 9.018px;
+    border: 1.127px solid #39393E;
+    background: rgba(11, 11, 11, 0.30);
+    backdrop-filter: blur(2px);
+}
+.producao-de-reels img{
+    width: 90px;
+    height: 50px;
+    bottom: 40px;
+    right: 220px;
+    position: absolute;
+}
+.producao-de-reels img:last-of-type{
+    width: 100%; 
+    max-width: 280px; 
+    margin-top: 10px;
+    top: 10px; 
+    right: 30px;
+}
+.quina{
+    width: 55px;
+    height: 55px;
+    left: 1060px;
+    top: 1010px;
+    position: absolute;
+}
+.fundo-cinza{
+    background-color: #C5C5C5;
+    width: 100%;
+    height: 919px;
+    top: 1100px;
+    background-position: center center;
+    position: absolute;
+}
+#port{
+    width: 589px;
+    height: 103px;
+    top: 50px;
+    left: 500px;
+    font-family: "Specify PERSONAL Expanded";
+    position: absolute;
+}
+.port1{
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.10);
+
+    opacity: 0.6;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.20) 0%, rgba(255, 255, 255, 0.00) 0.01%, rgba(255, 255, 255, 0.05) 100%);
+
+    box-shadow: 0 4px 24px 1px rgba(35, 16, 94, 0.25);
+    backdrop-filter: blur(22.5px);
+
+    width: 480px;
+    height: 250px;
+
+    top: 150px;
+    left: 350px;
+    position: absolute;
+}
+.port2{
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.10);
+
+    opacity: 0.6;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.20) 0%, rgba(255, 255, 255, 0.00) 0.01%, rgba(255, 255, 255, 0.05) 100%);
+
+    box-shadow: 0 4px 24px 1px rgba(35, 16, 94, 0.25);
+    backdrop-filter: blur(22.5px);
+
+    width: 480px;
+    height: 250px;
+
+    top: 450px;
+    right: 350px;
+    position: absolute;
+}
