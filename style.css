@@ -41,9 +41,9 @@ body, html{
 .group img{
     width: 55px;
     height: 55px;
+    bottom: 675px;
+    left: 230px;
     position: absolute;
-    bottom: 145px;
-    left: 160px;
 }
 
 .rectangle{
@@ -65,11 +65,11 @@ body, html{
 }
 
 .conhecaNossosServicos{  
-    width: 433px;
+    width: px;
     height: 251px;
     position: absolute;
     top: 25px;
-    right: 450px;
+    right: 1000px;
 
 }
 .linha1{
@@ -488,7 +488,6 @@ body, html{
     height: 200px;
     top: 700px;
     font-size: 30px;
-    background-position: center center;
     position: absolute;
     
 }
